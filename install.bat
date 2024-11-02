@@ -40,8 +40,6 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\KeepOutlook
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins\KeepOutlookRunningCOMAddin.Connect" /v "Description" /t REG_SZ /d "Keep Outlook Running COM Addin" /f
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\KeepOutlookRunningCOMAddin.Connect" /v "FriendlyName" /t REG_SZ /d "Keep Outlook Running COM Addin" /f
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\KeepOutlookRunningCOMAddin.Connect" /v "LoadBehavior" /t REG_DWORD /d 3 /f
-reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\KeepOutlookRunningCOMAddin.Connect" /v "FileName" /t REG_SZ /d "%ProgramFiles%\Microsoft Office\root\Office16\ADDINS\KeepOutlookRunning Add-in\KeepOutlookRunning-64bit.dll" /f
-
 
 echo KeepOutlookRunning Add-in installed successfully, restarting Outlook in 3 seconds
 
