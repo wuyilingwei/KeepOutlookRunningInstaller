@@ -4,11 +4,13 @@ KeepOutlookRunning Add-in need reregist when outlook update.
 
 In order to make it persistent, need to add an additional FileName registry entry to it so that it can be automatically recognized.
 
+## How to get it done easily
+
 Download `installer.bat` from [Release](https://github.com/wuyilingwei/KeepOutlookRunningInstaller/releases/)
 
 Run script can automate do all the things. DLL automatically download directly from the [Original author's repository](https://github.com/Ourselp/KeepOutlookRunning).
 
-I chose install in the directory `%ProgramFiles%\Microsoft Office\root\Office16\ADDINS\KeepOutlookRunning Add-in\`, just like it is part of Outlook. 
+I chose install in the directory `%ProgramFiles%\Microsoft Office\root\Office16\ADDINS\KeepOutlookRunning Add-in\`, just like it is part of Outlook. ~~Microsoft really should make this option a built-in part, instead of relying on us to patch it in.~~
 
 If you want to uninstall it, just delete this folder.
 
