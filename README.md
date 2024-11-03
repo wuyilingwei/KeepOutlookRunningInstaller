@@ -1,10 +1,14 @@
 # KeepOutlookRunningInstaller
 
-KeepOutlookRunning Add-in need reregist when outlook update.
+Little add-on to keep Outlook running when clicking on the exit button.
 
-In order to make it persistent, need to add an additional FileName registry entry to it so that it can be automatically recognized.
+To exit Outlook after installing the add-on use File -> Exit
 
-## How to get it done easily
+Credit goes to @Tim Eck on Superuser (https://superuser.com/users/78284/tim-eck) This script just automates the installation process and additionally installs the persistence patch.
+
+## How to get it easily
+
+Install Microsoft Visual C++ 2010 SP1 Redistributable Package [32 bit](https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe) and [64 bit](https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe) (both required for 64 bit Windows)
 
 Download `installer.bat` from [Release](https://github.com/wuyilingwei/KeepOutlookRunningInstaller/releases/)
 
